@@ -7,9 +7,6 @@ body {
     background-image: url("./images/ovxryz.jpg");
     color: white;
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 a {
@@ -17,8 +14,43 @@ a {
     color: cyan;
 }
 
+.grid {
+    display: flex;
+    align-items: center;
+}
+.col-1 {
+    flex-basis: 25%;
+}
+.col-2 {
+    flex-basis: 50%;
+}
+.col-4 {
+    flex-basis: 100%;
+}
+
+@media (max-width: 600px) {
+    .col-1 {
+        flex-basis: 50%;
+    }
+    .col-2 {
+        flex-basis: 100%;
+    }
+    .col-4 {
+        flex-basis: 100%;
+    }
+}
+
+.hover-highlight:hover {
+    filter: brightness(75%);
+    transition: all 0.50s;
+}
+.hover-highlight {
+    transition: all 0.50s;
+}
+
 header {
     display: flex;
+    background-color: pink;
     flex-grow: 0;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +72,20 @@ header nav ul li {
 }
 
 section {
-    flex-grow: 1;
+    width: 66%;
+    margin: 0 auto;
+}
+section article {
+    padding-top: 100px;
+}
+#AboutWork {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#AboutWork img {
+    width: 100%;
+    height: 100%;
 }
 
 footer {
@@ -48,10 +93,11 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    bottom: 0px;
+    position: sticky;
+    bottom: 0;
     width: 60%;
     height: 120px;
+    margin: 0 auto;
     background-color:plum;
     box-shadow:rebeccapurple;
 }
