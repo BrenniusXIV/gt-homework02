@@ -20,4 +20,4 @@
 
 ## Deployment links
 * Repo: https://github.com/BrenniusXIV/gt-homework02
-* Live link: 
+* Live link: https://brenniusxiv.github.io/gt-homework02/
