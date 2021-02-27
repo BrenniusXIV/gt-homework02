@@ -55,16 +55,23 @@ header {
     justify-content: space-between;
     align-items: center;
     border: 3px solid pink;
-    margin: 5px;
+    position: fixed;
+    top: 0;
+    margin: 5px 10%;
+    width: 80%;
+    z-index: 1;
 }
 header img {
     clip-path: circle(42%);
-    height:10%;
-    width:10%;
+    height:80px;
+    width:80px;
+    margin: auto 0;
+}
+header nav ul {
+    margin: 0;
 }
 header nav ul li {
     display: inline-block;
-    margin: 20px;
     padding: 10px;
     border: cyan 3px dashed;
     border-radius: 30%;
