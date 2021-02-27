@@ -124,6 +124,7 @@ footer {
     height: 120px;
     margin: 0 auto;
     background-color:plum;
+    border-radius: 10px;
     box-shadow:rebeccapurple;
 }
 footer > * {
@@ -132,3 +133,4 @@ footer > * {
 footer ul li {
     display: inline-block;
 }
+
