@@ -20,7 +20,7 @@ a {
     align-items: center;
 }
 .col-1 {
-    flex-basis: 25%;
+    flex-basis: 33.334%;
 }
 .col-2 {
     flex-basis: 50%;
