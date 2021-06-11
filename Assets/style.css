@@ -12,7 +12,7 @@ body {
 
 a {
     text-decoration: none;
-    color: cyan;
+    color: purple;
 }
 
 .grid {
@@ -75,7 +75,7 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     padding: 10px;
-    border: cyan 3px dashed;
+    border: purple 3px dashed;
     border-radius: 30%;
     text-align: center;
 }
